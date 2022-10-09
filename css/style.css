@@ -174,7 +174,6 @@ font-size: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .button button {
     padding: 20px 30px;
@@ -192,14 +191,13 @@ footer{
 }
 .footer_wrapper{
     width: 80%;
+    display: flex;
+    justify-content: space-between;
     margin: auto;
-    overflow: hidden;
-
+    padding-top: 20px;
+    align-items: center;
 }
-.term{
-    
-
-}
+.term{}
 .term ul{
     list-style: none;
     display: flex;
@@ -208,11 +206,11 @@ footer{
 .term ul li{
 }
 .term ul li a{
+    color: #3d3d3d;
     text-decoration: none;
     /* margin: 0px 0px; */
 }
 .social_icon{
-
 }
 .social_icon ul{
     list-style: none;
